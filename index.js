@@ -33,7 +33,6 @@ function appendintoUI(dataList) {
         card.className = "card";
         let eachCard=dataList[i];
         let status=dataList[i].status.toLowerCase();
-        console.log(status);
         card.innerHTML = `
     <div class="top">
              <div class="status">
